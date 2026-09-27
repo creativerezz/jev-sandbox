@@ -1,0 +1,6 @@
+name: jev-skills
+version: 0.1.0
+description: "Suggests at most one relevant skill per turn using TypeSafe Jev (two System One calls: rank the roster, then re-check the top candidates)."
+author: "Reza Jafar"
+provides_hooks: [pre_llm_call]
+requires_env: [TYPESAFE_API_KEY]
